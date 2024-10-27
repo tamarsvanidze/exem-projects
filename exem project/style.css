@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.973);
+    font-size:  17px; ;
+
+}
+header{
+    background-color: rgba(22, 90, 25, 0.753);
+    color: rgb(6, 15, 8);
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+
+}
+nav ul li a{
+    color: rgb(1, 17, 12);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section {
+    padding: 2rem;
+    margin: auto;
+    max-width: 700px;
+
+}
+h2 {
+    color: rgb(16, 105, 36);
+    margin-bottom: 1rem;
+
+
+
+}
+
+footer{
+    background-color: rgba(28, 158, 51, 0.808);
+    color: rgb(10, 82, 22);
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
